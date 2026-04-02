@@ -1,6 +1,6 @@
-# PrivateAgent Wave 1 Screen Map
+# PrivateAgent Screen Map
 
-The existing Lovable UI is preserved and mapped into a Wave 1 privacy-first demo flow.
+The existing Lovable UI is preserved and mapped into a privacy-first demo flow.
 
 ## Flow Order
 
@@ -26,6 +26,6 @@ The existing Lovable UI is preserved and mapped into a Wave 1 privacy-first demo
 
 ## Code Organization
 
-- Centralized flow metadata lives in `src/config/wave1Flow.ts`.
-- Router uses Wave 1 canonical paths and keeps legacy redirects (`/setup`, `/rules`, `/purchase`) for compatibility.
-- Global navigation in `src/components/AppLayout.tsx` is generated from the Wave 1 flow map for a single source of truth.
+- Centralized flow metadata lives in `src/config/appFlow.ts`.
+- Router uses canonical paths and keeps legacy redirects (`/setup`, `/rules`, `/purchase`) for compatibility.
+- Global navigation in `src/components/AppLayout.tsx` is generated from the app flow map for a single source of truth.

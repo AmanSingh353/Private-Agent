@@ -1,4 +1,4 @@
-export const wave1Flow = [
+export const appFlow = [
   {
     id: "onboarding",
     path: "/onboarding",
@@ -31,4 +31,4 @@ export const wave1Flow = [
   },
 ] as const;
 
-export type Wave1FlowStep = (typeof wave1Flow)[number];
+export type AppFlowStep = (typeof appFlow)[number];

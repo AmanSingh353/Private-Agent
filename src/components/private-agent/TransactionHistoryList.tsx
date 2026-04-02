@@ -21,7 +21,7 @@ const TransactionHistoryList = ({ transactions }: TransactionHistoryListProps) =
       <div className="card-glass p-8 text-center space-y-2">
         <p className="text-base font-semibold">No decisions yet</p>
         <p className="text-sm text-muted-foreground">
-          Run a purchase check to populate this buildathon demo audit trail.
+          Run a purchase check to populate this audit trail.
         </p>
       </div>
     );

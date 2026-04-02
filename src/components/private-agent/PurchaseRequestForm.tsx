@@ -86,7 +86,7 @@ const PurchaseRequestForm = ({
         </p>
         {checking && (
           <div className="rounded-xl border border-primary/20 bg-primary/5 px-3 py-2 text-xs text-primary">
-            Running encrypted checks for buildathon demo...
+            Running encrypted checks for demo...
           </div>
         )}
         {steps.map((step, i) => (

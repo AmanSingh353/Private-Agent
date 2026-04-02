@@ -1,6 +1,6 @@
 # Private Guardian (PrivateAgent Prototype)
 
-Privacy-first spending assistant prototype for buildathon demos.  
+Privacy-first spending assistant prototype.  
 Users configure confidential spending rules, submit purchase requests, and receive privacy-safe outcomes without exposing private policy values in the UI.
 
 ## Tech Stack
@@ -11,15 +11,13 @@ Users configure confidential spending rules, submit purchase requests, and recei
 
 ## Current Product Flow (UI Working)
 
-Wave 1 screens are implemented and connected:
+The following screens are implemented and connected:
 
 1. **Onboarding** (`/onboarding`)
 2. **Create Agent** (`/create-agent`)
 3. **Private Rules** (`/private-rules`)
 4. **Purchase Request** (`/purchase-request`)
 5. **History** (`/history`)
-
-The prototype also includes a **Judge Walkthrough Mode** in the header to guide evaluators through the full narrative.
 
 ## What Is Already Working in the UI
 
@@ -35,7 +33,7 @@ The prototype also includes a **Judge Walkthrough Mode** in the header to guide 
   - request amount label
   - timestamp
   - decision status
-- Wave 1 route mapping and navigation with legacy path redirects
+- Route mapping and navigation with legacy path redirects
 
 ## What Is Simulated with Mock Confidential Logic (Frontend)
 
@@ -75,7 +73,7 @@ src/
   App.tsx
   main.tsx
   config/
-    wave1Flow.ts
+    appFlow.ts
   data/
     privateAgentDemoData.ts
   state/
